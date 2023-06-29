@@ -73,6 +73,6 @@ print:
     ret
     
     
-msg:    db "Oh! boy syrup! In assembly no less!", 0
+msg:    db "Hakunamata! A USB Bootloader. In assembly no less!", 0
         times 510-($-$$) db 0
         dw 0xAA55
