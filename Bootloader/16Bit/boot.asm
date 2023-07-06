@@ -16,8 +16,8 @@
     call print
     add sp, 2
     
-    cli
-    hlt
+    cli                         ; Clear interrupt flag
+    hlt                         ; Halt Execution
     
 clearscreen:
     push bp
@@ -26,7 +26,7 @@ clearscreen:
 
     mov ah, 0x07                ; tells BIOS to scroll down
     mov al, 0x00                ; clear window
-    mov bh, 0x07                ; BnW screen
+    mov bh, 0x07                ; BnW screen; 0 B and 7 W
     mov cx, 0x00                ; screen top left corner is (0x0)
     mov dh, 0x18                ; 18h is 24 char rows
     mov dl, 0x4f                ; 4f is 79 char cols
@@ -74,5 +74,5 @@ print:
     
     
 msg:    db "Hakunamata! A USB Bootloader. In assembly no less!", 0
-        times 510-($-$$) db 0
-        dw 0xAA55
+        times 510-($-$$) db 0   ; pad remaining 510 with 0
+        dw 0xAA55               ; mark the sector as bootable

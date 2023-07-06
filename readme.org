@@ -1,1 +1,16 @@
-# My_ASM_Path
+#+title: My Assembly Journey
+
+Here I document resources and learnings of the things i find and am able to learn about assembly.
+
+* Learnings
++ [[https:youtube.com/watch?v=jPDiaZS-2ok][Short assembly tut]] by Low lvl Learn
++ [[https:hackr.io/tutorials/learn-assembly-language][Hackr.io source]]
++ [[https:tutorialspoint.com/assembly_programming/index.htm][Tutorialspoint]] very wordy
++ [[https:youtube.com/watch?v=gfmRrPjnEw4][ARM assembly]] by FreeCodeCamp
+* Tutorials
++ [[https:youtube.com/watch?v=MwPjvJ9ulSc][Making an OS <YT>]]
++ [[https:3zanders.co.uk/2017/10/16/writing-a-bootloader2/][Writing a 32bit Bootloader]] - with C++ execution
++ [[https:jamesmolloy.co.uk/tutorial_html/][Writing a UNIX clone]]
+* Books
++ Assembly Language step by step, by Jeff Duntemann
+  

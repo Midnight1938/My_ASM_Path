@@ -1,0 +1,5 @@
+#+title: Bootloader with C++ (and assembly)
+#+date: <2023-06-30 Fri>
+
+Learning more about assembly by writing another bootloader thats secure boot and can also run C++.
+A toy UNIX clone OS
