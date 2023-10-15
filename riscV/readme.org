@@ -1,0 +1,16 @@
+* Installation
+** QEMU
+#+BEGIN_SRC sh 
+    sudo pacman -S qemu
+    sudo pacman -S qemu-system-riscv
+    sudo pacman -S qemu-user qemu-user-static
+#+END_SRC
+** RiscV compiler
+#+BEGIN_SRC sh 
+    sudo pacman -S  riscv64-linux-gnu-gcc
+#+END_SRC
+
+* Documentation
++ [[https://riscv.org/][RISC-V Foundation]]
++ [[https://github.com/mikeroyal/RISC-V-Guide][Well written guide on RISC-V]]
++ [[https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf][RiscV spec sheet]] - Page 109 has the handbook with the instructions
