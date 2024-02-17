@@ -1,0 +1,5 @@
+#+title: Writing a 32 bit bootloader
+
+* Difference between this and the 16 bit
+The main difference is that the 32 bit version is able to take up more than 1MB of memory.
+And is also able to boot on systems in protected mode, simply because the mode allows 32 bit systems
